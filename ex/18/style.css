@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{ 
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.25em;
+    font-weight: smaller;
+    font-style: italic;
+    text-decoration: none;
+}
+
+h1{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+    font-size: 2.5em;
+    font-style: italic;
+
+    /* Shorthands do 4lis abaixo: */
+
+    font: italic 800 2.5em 'Work Sans', sans-serif;
+}
+
+h2{
+    font: oblique 500 1.75em 'Work Sans', sans-serif;
+}

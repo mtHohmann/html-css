@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: littlebird;
+    src: url(./littlebird.ttf) format('truetype');
+}
+
+h1{
+    font: 400 2.2em "Arial", "Verdana", sans-serif;
+}
+
+#google{ /* Google Fonts */
+    font: 400 2.5em "Dancing Script", 'cursive';
+}
+
+#local{ /* Arquivo Local de Fonte */
+    font: 400 2.5em "littlebird";
+}

@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* Comentário em CSS :D não esqueça que esse charset é pela compatibilidade
+*/
+
+body
+{
+ background-color: antiquewhite;
+ color: aqua;
+ font-size: 12pt;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+}
+
+h1{
+    color: lightpink;
+}
+
+h2{
+    color: lightskyblue;
+}
+
+a{
+    color: rgb(99, 165, 0);
+    text-decoration: none;
+}

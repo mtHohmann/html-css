@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos em HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+    <video width="600" height="350" poster="./img/thumbnail-lemon.png" controls>
+        <source src="./videos/meu-video.mp4" type="video/mpeg">
+        <source src="./videos/meu-video.webm" type="video/webm">
+        <source src="./videos/meu-video.ogv" type="video/ogg">
+        <p>Infelizmente não houve compatibilidade do seu navegador com o vídeo...</p>
+    </video>
+    <h1>Incorporando Vídeos</h1>
+    <p>Vamos realizar a <strong>incorporação</strong> de dois vídeos de provedores diferentes: Youtube e Vimeo</p>
+    <h2>Inserindo vídeos pelo Youtube</h2>
+    <iframe width="600" height="350" src="https://www.youtube.com/embed/WTJ0LHgVTzY?si=Pi2zQvX9U-DkeC1T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h2>Inserindo vídeos pelo Vimeo</h2>
+    <iframe src="https://player.vimeo.com/video/197093965?h=7fbc516b5a" width="600" height="350" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

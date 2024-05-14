@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Listas</h1>
+    <p>Para quem produz conteúdo, listas também são muito úteis.
+        Elas simplificam e sintetizam o conteúdo a ser passado e faz a
+        demarcação de cada item para facilitar a visualização.
+        <br>Por conta disso, a linguagem HTML disponibiliza vários tipos de lista para produzirmos
+        nosso conteúdo e deixá-lo mais claro e eficiente.</p>
+    <h2>Listas Ordenadas</h2>
+    <p>São feitas com a tag &lt;ol&gt; veja um exemplo:</p>
+    <ol type="1" start="3"> <!-- Argumentos: 1, A, a, I, i | Parâmetro start = início da contagem-->
+        <li>Acordar</li>
+        <li>Escovar os dentes</li>
+        <li>Tomar café</li>
+        <li>Trabalhar</li>
+    </ol>
+    <h2>Listas Não Ordenadas</h2>
+    <p>São feitas com a tag &lt;ul&gt; veja um exemplo:</p>
+    <ul type="circle"> <!-- Argumentos: disc, circle, square -->
+        <li>Banana</li>
+        <li>Maça</li>
+        <li>Uva</li>
+        <li>Perâ</li>
+        <li>Melância</li>
+    </ul>
+    <h2>Misturando Listas</h2>
+    <p>É possível criar listas dentro de outras listas, veja utilizando as listas &lt;ol&gt; como exemplo: </p>
+    <p><strong>Treino ABC</strong></p>
+    <ol>
+        <li>Treino de Costas</li>
+        <ol type="a">
+            <li>Alpinismo</li>
+            <li>Adutora</li>
+        </ol>
+        <li>Treino de Biceps / Triceps </li>
+            <ol type="a">
+                <li>Halters</li>
+                <li>Supino</li>
+            </ol>
+        <li>Treino de Perna</li>
+        <ol type="a">
+            <li>LegPress</li>
+            <li>Esteira</li>
+        </ol>
+    </ol>
+    <p><strong>Treino Counter-Strike</strong></p>
+    <ol>
+        <li>Mira</li>
+        <ul type="disc">
+            <li>Prefire</li>
+            <li>Crosshair Placement</li>
+            <li>Deathmatch</li>
+        </ul>
+        <li>Movimentação</li>
+        <ul type="disc">
+            <li>KZ</li>
+            <li>Andar pelo mapa</li>
+        </ul>
+        <li>Conhecimento</li>
+        <ul type="disc">
+            <li>Demos de times</li>
+            <li>POVs de Jogadores</li>
+        </ul>
+    </ol>
+</body>
+</html>
