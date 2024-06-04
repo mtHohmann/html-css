@@ -52,19 +52,24 @@ section.normal{
     background-color: white;
 }
 
+section.img > p{
+    color: white;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.450);
+    text-shadow: 1px 2px 1px black;
+}
+
 section#img01{
     background: url(../imgs/img01.jpg) no-repeat center fixed;
     background-size: cover;
-    color: white;
 }
 
 section#img02{
     background: url(../imgs/img02.jpg) no-repeat center fixed;
     background-size: cover;
-    color: white;
-    text-shadow: 1px 2px 1px black;
 }
-
 
 footer{
     background: black;
