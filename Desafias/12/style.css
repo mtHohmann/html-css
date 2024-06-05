@@ -11,7 +11,8 @@
     padding: 0;
 }
 
-body{
+html, body{
+    min-height: 100vh;
     background-color: ghostwhite;
     font-size: 1em;
     font-family: var(--font01);
@@ -46,11 +47,11 @@ section{
     padding-left: 20px;
     line-height: 2.2em;
     font-family: var(--font03);
-    font-size: 3vw;
+    font-size: 3.5vw;
 }
 
-section.normal > p{
-    padding-bottom: 20px;
+section > p{
+    padding-bottom: 2em;
 }
 
 section.img{
